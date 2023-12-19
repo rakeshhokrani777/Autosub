@@ -3,7 +3,7 @@ target=$1
 red='\e[31m'
 logo='\033[0;36m'
 end='e[0m'
-BASE_DIR='$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 #### Subdomain
 rm -rf ${BASE_DIR}/out > /dev/null
